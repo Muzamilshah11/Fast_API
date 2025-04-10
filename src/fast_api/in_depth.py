@@ -1,5 +1,5 @@
 from typing import Union, Optional # When we use Mean's can assign the data type more then one at a time 
-from fastapi import FastAPI, Query, Form
+from fastapi import FastAPI, Query, Form, File, UploadFile
 from enum import Enum
 from pydantic import BaseModel
 
@@ -56,7 +56,7 @@ async def pydantic_fucn(data: Schema1):
 #Form Data:-- Main d/f form data when we put data the in string form not query form
 
 @app.post("/form/data")
-async def form_data(username: str = Form(...),    password: str = Form(...)):
+async def form_data(username: str = Form(),    password: str = Form()):
     return {"username": username, "password": password}
 
 
@@ -69,3 +69,14 @@ class FormSchema1(BaseModel):
 async def form_data_pydantic(data: FormSchema1 = Form()):
     return f"This is your input Schema:-- {data}" 
 
+
+# File Upload through byte converter
+@app.post("/file/upload")
+async def file_upload_byte(file: bytes = File()): # UploadFile is a class in FastAPI then will get the file
+    return {"file_size": len(file)}
+
+@app.post("/upload/file")
+async def upload_file(file: UploadFile): # UploadFile is a class in FastAPI then will get the file
+    return {"filename": file} # show all the file details 
+    # return {"filename": file.filename, "file_content_type": file.content_type}  # just show file name and content type   
+ 
