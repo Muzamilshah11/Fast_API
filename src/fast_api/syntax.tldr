@@ -1,0 +1,982 @@
+{
+	"tldrawFileFormatVersion": 1,
+	"schema": {
+		"schemaVersion": 2,
+		"sequences": {
+			"com.tldraw.store": 4,
+			"com.tldraw.asset": 1,
+			"com.tldraw.camera": 1,
+			"com.tldraw.document": 2,
+			"com.tldraw.instance": 25,
+			"com.tldraw.instance_page_state": 5,
+			"com.tldraw.page": 1,
+			"com.tldraw.instance_presence": 6,
+			"com.tldraw.pointer": 1,
+			"com.tldraw.shape": 4,
+			"com.tldraw.asset.bookmark": 2,
+			"com.tldraw.asset.image": 5,
+			"com.tldraw.asset.video": 5,
+			"com.tldraw.shape.group": 0,
+			"com.tldraw.shape.text": 3,
+			"com.tldraw.shape.bookmark": 2,
+			"com.tldraw.shape.draw": 2,
+			"com.tldraw.shape.geo": 10,
+			"com.tldraw.shape.note": 9,
+			"com.tldraw.shape.line": 5,
+			"com.tldraw.shape.frame": 0,
+			"com.tldraw.shape.arrow": 5,
+			"com.tldraw.shape.highlight": 1,
+			"com.tldraw.shape.embed": 4,
+			"com.tldraw.shape.image": 4,
+			"com.tldraw.shape.video": 2,
+			"com.tldraw.binding.arrow": 0
+		}
+	},
+	"records": [
+		{
+			"id": "pointer:pointer",
+			"typeName": "pointer",
+			"x": -22.86029528797735,
+			"y": 2529.651796078067,
+			"lastActivityTimestamp": 1744273394939,
+			"meta": {}
+		},
+		{
+			"x": 0,
+			"y": 344.411889380532,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 0.5,
+			"meta": {},
+			"id": "shape:gp8Oe5VfzJD6D7DB5nvvg",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "l",
+				"w": 814.546875,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "heading",
+							"attrs": {
+								"dir": "auto",
+								"level": 4
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "bold"
+										}
+									],
+									"text": "step 3: Define a "
+								},
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "bold"
+										},
+										{
+											"type": "italic"
+										}
+									],
+									"text": "path operation decorator"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "shape:KGzdKfLxCuIZa2GSgWrn4",
+			"index": "a73xb",
+			"typeName": "shape"
+		},
+		{
+			"x": -341.3858062158736,
+			"y": 1543.6441955877872,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:KGzdKfLxCuIZa2GSgWrn4",
+			"type": "group",
+			"parentId": "page:page",
+			"index": "a97eH",
+			"props": {},
+			"typeName": "shape"
+		},
+		{
+			"x": 114.38721432542388,
+			"y": 497.6405596709892,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 0.5,
+			"meta": {},
+			"id": "shape:nzZ-60kTN_-k_6eMc6FQJ",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 396.59375,
+				"font": "sans",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "from fastapi import FastAPI"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "app = FastAPI()"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "@app.get(\"/\")"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "async def root():"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "    return {\"message\": \"Hello World\"}"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "shape:KGzdKfLxCuIZa2GSgWrn4",
+			"index": "aD7QN",
+			"typeName": "shape"
+		},
+		{
+			"x": 914.8602952879774,
+			"y": -1889.651796078067,
+			"z": 0.5,
+			"meta": {},
+			"id": "camera:page:page",
+			"typeName": "camera"
+		},
+		{
+			"x": 6.466849484822433,
+			"y": 130,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 0.5,
+			"meta": {},
+			"id": "shape:-RV4Ru8byDj_A2gOur8ZK",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 536.78125,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "heading",
+							"attrs": {
+								"dir": "auto",
+								"level": 3
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Step 2: create a "
+								},
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "FastAPI"
+								},
+								{
+									"type": "text",
+									"text": " \"instance\""
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "shape:KGzdKfLxCuIZa2GSgWrn4",
+			"index": "a82pS",
+			"typeName": "shape"
+		},
+		{
+			"editingShapeId": null,
+			"croppingShapeId": null,
+			"selectedShapeIds": [
+				"shape:3KCzzpK-N4em1W0q-6427"
+			],
+			"hoveredShapeId": "shape:3KCzzpK-N4em1W0q-6427",
+			"erasingShapeIds": [],
+			"hintingShapeIds": [],
+			"focusedGroupId": "shape:KGzdKfLxCuIZa2GSgWrn4",
+			"meta": {},
+			"id": "instance_page_state:page:page",
+			"pageId": "page:page",
+			"typeName": "instance_page_state"
+		},
+		{
+			"x": 73.01062126843749,
+			"y": 424.04812445428206,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:eeFAdFjIRiOvfuj5lldfz",
+			"type": "text",
+			"props": {
+				"color": "light-red",
+				"size": "xl",
+				"w": 305.21875,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "@app.get(\"/\")"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "shape:KGzdKfLxCuIZa2GSgWrn4",
+			"index": "a244W",
+			"typeName": "shape"
+		},
+		{
+			"x": 130.0743711820259,
+			"y": 142,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:ZJNUvL-jiNxyslIgqm2_9",
+			"type": "text",
+			"props": {
+				"color": "light-blue",
+				"size": "m",
+				"w": 217,
+				"font": "mono",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1.1234329797492768,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "app = FastAPI()"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "shape:KGzdKfLxCuIZa2GSgWrn4",
+			"index": "a31hB",
+			"typeName": "shape"
+		},
+		{
+			"x": 21.310599484822433,
+			"y": 0,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 0.5,
+			"meta": {},
+			"id": "shape:CsQpGMG1fQLaMqox41Qvx",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 335.046875,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "heading",
+							"attrs": {
+								"dir": "auto",
+								"level": 3
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Step 1: import "
+								},
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "FastAPI"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "shape:KGzdKfLxCuIZa2GSgWrn4",
+			"index": "a65p4",
+			"typeName": "shape"
+		},
+		{
+			"x": 288.31059948482243,
+			"y": 116,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 0.5,
+			"meta": {},
+			"id": "shape:Rfnx6a7tO9q4r8Ojkbamd",
+			"type": "text",
+			"props": {
+				"color": "light-red",
+				"size": "m",
+				"w": 57,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": false,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph"
+						}
+					]
+				}
+			},
+			"parentId": "shape:KGzdKfLxCuIZa2GSgWrn4",
+			"index": "a57He",
+			"typeName": "shape"
+		},
+		{
+			"x": 25.2326252593773,
+			"y": 785.7425692938632,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 0.5,
+			"meta": {},
+			"id": "shape:72sJRmWM880LMIZjuEbdK",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 656.28125,
+				"font": "sans",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "A \"path\" is also commonly called an \"endpoint\" or a \"route\"."
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "shape:KGzdKfLxCuIZa2GSgWrn4",
+			"index": "aA4MR",
+			"typeName": "shape"
+		},
+		{
+			"x": 52.5841877593773,
+			"y": 1077.2425692938632,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 0.5,
+			"meta": {},
+			"id": "shape:mTPDH_zbQ8FUMGW1NHFfO",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 1106.5,
+				"font": "serif",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "When building APIs, you normally use these specific HTTP methods to perform a specific action."
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Normally you use:"
+								}
+							]
+						},
+						{
+							"type": "bulletList",
+							"content": [
+								{
+									"type": "listItem",
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"marks": [
+														{
+															"type": "code"
+														}
+													],
+													"text": "POST"
+												},
+												{
+													"type": "text",
+													"text": ": to create data."
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"marks": [
+														{
+															"type": "code"
+														}
+													],
+													"text": "GET"
+												},
+												{
+													"type": "text",
+													"text": ": to read data."
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"marks": [
+														{
+															"type": "code"
+														}
+													],
+													"text": "PUT"
+												},
+												{
+													"type": "text",
+													"text": ": to update data."
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"marks": [
+														{
+															"type": "code"
+														}
+													],
+													"text": "DELETE"
+												},
+												{
+													"type": "text",
+													"text": ": to delete data."
+												}
+											]
+										},
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"text": "So, in OpenAPI, each of the HTTP methods is called an \"operation\"."
+												}
+											]
+										},
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"text": "We are going to call them \""
+												},
+												{
+													"type": "text",
+													"marks": [
+														{
+															"type": "bold"
+														}
+													],
+													"text": "operations"
+												},
+												{
+													"type": "text",
+													"text": "\" too."
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "shape:KGzdKfLxCuIZa2GSgWrn4",
+			"index": "aC8up",
+			"typeName": "shape"
+		},
+		{
+			"x": 79.31059948482243,
+			"y": 25,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:TcWwVhhd67GHnNt1F-fWE",
+			"type": "text",
+			"props": {
+				"color": "light-red",
+				"size": "m",
+				"w": 440.15625,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "import from fastapi import FastAPI"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "shape:KGzdKfLxCuIZa2GSgWrn4",
+			"index": "a1",
+			"typeName": "shape"
+		},
+		{
+			"meta": {},
+			"id": "page:page",
+			"name": "Page 1",
+			"index": "a1",
+			"typeName": "page"
+		},
+		{
+			"gridSize": 10,
+			"name": "",
+			"meta": {},
+			"id": "document:document",
+			"typeName": "document"
+		},
+		{
+			"followingUserId": null,
+			"opacityForNextShape": 0.5,
+			"stylesForNextShape": {
+				"tldraw:size": "m",
+				"tldraw:color": "green",
+				"tldraw:font": "serif"
+			},
+			"brush": null,
+			"scribbles": [],
+			"cursor": {
+				"type": "default",
+				"rotation": 0
+			},
+			"isFocusMode": false,
+			"exportBackground": true,
+			"isDebugMode": false,
+			"isToolLocked": false,
+			"screenBounds": {
+				"x": 0,
+				"y": 0,
+				"w": 1148,
+				"h": 614
+			},
+			"insets": [
+				false,
+				false,
+				true,
+				false
+			],
+			"zoomBrush": null,
+			"isGridMode": false,
+			"isPenMode": false,
+			"chatMessage": "",
+			"isChatting": false,
+			"highlightedUserIds": [],
+			"isFocused": true,
+			"devicePixelRatio": 1,
+			"isCoarsePointer": false,
+			"isHoveringCanvas": true,
+			"openMenus": [],
+			"isChangingStyle": false,
+			"isReadonly": false,
+			"meta": {},
+			"duplicateProps": null,
+			"id": "instance:instance",
+			"currentPageId": "page:page",
+			"typeName": "instance"
+		},
+		{
+			"x": 72.52551092789622,
+			"y": 912.9238716176183,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 0.5,
+			"meta": {},
+			"id": "shape:3KCzzpK-N4em1W0q-6427",
+			"type": "text",
+			"props": {
+				"color": "green",
+				"size": "m",
+				"w": 476.09375,
+				"font": "serif",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1.130226452248113,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "@app.get(\"/items/{item_id}\")"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "async def path_para(item_id):"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "    var_name = {\"Path Variable \":\"item_id\"}"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "    return var_name "
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "shape:KGzdKfLxCuIZa2GSgWrn4",
+			"index": "aE9x5",
+			"typeName": "shape"
+		},
+		{
+			"x": 71.6857502593773,
+			"y": 830.2425692938632,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:XUZpyJkcICe3ifrSBR5Se",
+			"type": "text",
+			"props": {
+				"color": "light-red",
+				"size": "m",
+				"w": 453.78125,
+				"font": "sans",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "URL like:"
+								},
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "link",
+											"attrs": {
+												"href": "https://example.com/items/foo",
+												"target": "_blank",
+												"rel": "noopener noreferrer nofollow",
+												"class": null
+											}
+										}
+									],
+									"text": "  https://example.com/items/foo"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "...the path would be /items/foo"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						}
+					]
+				}
+			},
+			"parentId": "shape:KGzdKfLxCuIZa2GSgWrn4",
+			"index": "a49lw",
+			"typeName": "shape"
+		},
+		{
+			"x": -10.7517497406227,
+			"y": 739.7425692938632,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 0.5,
+			"meta": {},
+			"id": "shape:RJ-cm6yikL9mXiJ_ORc-D",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 746.765625,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "heading",
+							"attrs": {
+								"dir": "auto",
+								"level": 3
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Step 4: create a "
+								},
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "italic"
+										}
+									],
+									"text": "path operation , Endpoint, Route"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "shape:KGzdKfLxCuIZa2GSgWrn4",
+			"index": "a9Am7",
+			"typeName": "shape"
+		}
+	]
+}
