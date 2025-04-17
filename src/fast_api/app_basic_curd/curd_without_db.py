@@ -32,7 +32,8 @@ def update_book(id: int, book: Books):
 @app.delete("/book/{id}")
 def delete_book(id: int):
     data.pop(id)  # Remove the entry at the given index
-    return data
+    return data # retun data
+    
 
 
 # Run the app when executing this file directly
